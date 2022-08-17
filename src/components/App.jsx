@@ -35,6 +35,7 @@ export const App = () => {
     }
     setQuery(data);
     setImage([]);
+    setPage(1);
   };
 
   const onImgClick = clickedImg => {
